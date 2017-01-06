@@ -1,6 +1,8 @@
 #PatienC++
 This is a simple, text based version of Solitaire. Can be compiled from source using gcc or alternatively using the binaries supplied in `/bin/`. Initially written for a second year Software Engineering class in 2005 and uploaded for posterity with minimal revisions since. My first-ever-C++ program so feel free to make fun of it if you're so inclined :P
 
+Compile and run with `gcc PatienC++.cpp -lstdc++ -o PatienC++ && ./PatienC++`
+
 ##Overview
 The object of the game is to empty the deck. Cards may be removed from the T (Thrown) Pile to a playing area pile numbered 1-7 with the 'MOVE' Command. For example, to move a card from the Thrown pile to the the first playing area pile the player would type 'MOVE T TO 1'. Cards may be stacked when possible in the Suit decks (H,D,C,S) in ascending order in the appropriate pile in order to clear them from the playing areas.
 
